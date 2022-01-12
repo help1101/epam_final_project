@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/manage_departments.css') }}">{% endblock %}
+
+{% block title %}
+    Add new department
+{% endblock %}
+
+{% block body %}
+    <div class="content-wrapper">
+        <div class="inner-wrapper">
+            <form method="post">
+                <h3>Enter department name:</h3>
+                <input type="text" name="department_name" id="department_name" class="form-control"
+                       placeholder="Example: It department"><br>
+                <h3>Enter organisation name:</h3>
+                <input type="text" name="department_organisation" id="department_organisation" class="form-control"
+                       placeholder="Example: Epam"><br>
+
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Add department
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Add department</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure you want to add department?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-success">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,1307 @@
+2022-01-08 15:05:46,873 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-08 15:07:06,259 INFO werkzeug Thread-1 : 127.0.0.1 - - [08/Jan/2022 15:07:06] "GET / HTTP/1.1" 200 -
+2022-01-08 15:07:06,567 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/Jan/2022 15:07:06] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-08 15:07:06,607 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Jan/2022 15:07:06] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-08 15:07:07,931 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Jan/2022 15:07:07] "GET /static/images/workspace.jpg HTTP/1.1" 200 -
+2022-01-08 15:07:07,932 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Jan/2022 15:07:07] "GET /static/images/team.jpg HTTP/1.1" 200 -
+2022-01-08 15:07:07,934 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Jan/2022 15:07:07] "GET /static/images/office.jpg HTTP/1.1" 200 -
+2022-01-08 15:07:25,316 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Jan/2022 15:07:25] "GET /departments HTTP/1.1" 200 -
+2022-01-08 15:07:25,505 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Jan/2022 15:07:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-08 15:07:25,509 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Jan/2022 15:07:25] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-08 15:11:24,626 INFO werkzeug Thread-12 : 127.0.0.1 - - [08/Jan/2022 15:11:24] "GET / HTTP/1.1" 200 -
+2022-01-08 15:11:24,680 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Jan/2022 15:11:24] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-08 15:11:24,697 INFO werkzeug Thread-14 : 127.0.0.1 - - [08/Jan/2022 15:11:24] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-08 15:11:24,895 INFO werkzeug Thread-15 : 127.0.0.1 - - [08/Jan/2022 15:11:24] "GET /static/images/office.jpg HTTP/1.1" 200 -
+2022-01-08 15:11:24,900 INFO werkzeug Thread-17 : 127.0.0.1 - - [08/Jan/2022 15:11:24] "GET /static/images/team.jpg HTTP/1.1" 200 -
+2022-01-08 15:11:24,901 INFO werkzeug Thread-16 : 127.0.0.1 - - [08/Jan/2022 15:11:24] "GET /static/images/workspace.jpg HTTP/1.1" 200 -
+2022-01-08 16:04:17,853 ERROR flask_migrate MainThread : Error: Directory departments_app/ already exists and is not empty
+2022-01-08 16:14:43,230 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 15:39:21,607 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 15:39:32,449 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 15:39:32] "GET / HTTP/1.1" 200 -
+2022-01-09 15:39:33,052 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 15:39:33] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 15:39:33,053 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 15:39:33] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 15:39:33,060 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 15:39:33] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 15:39:33,061 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 15:39:33] "GET /static/images/workspace.jpg HTTP/1.1" 200 -
+2022-01-09 15:39:33,063 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 15:39:33] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 15:44:17,027 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 15:44:17] "GET / HTTP/1.1" 200 -
+2022-01-09 15:44:17,065 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 15:44:17] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 15:44:17,070 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 15:44:17] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 15:44:17,135 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 15:44:17] "GET /static/images/workspace.jpg HTTP/1.1" 200 -
+2022-01-09 15:44:17,136 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 15:44:17] "GET /static/images/team.jpg HTTP/1.1" 200 -
+2022-01-09 15:44:17,138 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 15:44:17] "GET /static/images/office.jpg HTTP/1.1" 200 -
+2022-01-09 16:25:05,942 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:25:07,318 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:25:07] "GET / HTTP/1.1" 200 -
+2022-01-09 16:25:08,128 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:25:08] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 16:25:08,129 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:25:08] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 16:25:08,137 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 16:25:08] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 16:25:08,138 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 16:25:08] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 16:25:08,139 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 16:25:08] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 16:25:08,275 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 16:25:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-09 16:25:10,051 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 16:25:10] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:25:10,333 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 16:25:10] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:25:10,335 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 16:25:10] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 16:27:16,306 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 16:27:16] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:27:16,579 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 16:27:16] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:27:16,580 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 16:27:16] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 16:28:24,934 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:28:25,153 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:28:25] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:28:25,722 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:28:25] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:28:25,724 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:28:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:31:18,396 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:31:19,868 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:31:19] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:31:20,467 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:31:20] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:31:20,467 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:31:20] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:42:06,111 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:42:06,794 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:42:06] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:42:07,510 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:42:07] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:42:07,510 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:42:07] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 16:52:41,281 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 16:52:41] "GET / HTTP/1.1" 200 -
+2022-01-09 16:52:41,672 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 16:52:41] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:52:41,676 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 16:52:41] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 16:52:41,923 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 16:52:41] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 16:52:41,925 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 16:52:41] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 16:52:41,925 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 16:52:41] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 16:55:05,295 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:55:05,938 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:55:05] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:55:06,504 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:55:06] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:55:06,505 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:55:06] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:55:21,856 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:55:22,095 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:55:22] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:55:22,787 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:55:22] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:55:22,793 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:55:22] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:55:24,922 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 16:55:24] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:55:25,180 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 16:55:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:55:25,182 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 16:55:25] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:55:30,317 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:55:31,728 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:55:31] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:55:32,415 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:55:32] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:55:32,416 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:55:32] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:56:43,508 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:56:44,120 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:56:44] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:56:44,744 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:56:44] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:56:44,744 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:56:44] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 16:56:54,827 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 16:56:54] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:56:55,034 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 16:56:55] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:56:55,035 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 16:56:55] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 16:57:03,634 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 16:57:03] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:57:03,949 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 16:57:03] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:57:03,950 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 16:57:03] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:57:05,520 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 16:57:05] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:57:05,729 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 16:57:05] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 16:57:05,730 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 16:57:05] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:57:09,747 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:57:10,157 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:57:10] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:57:10,741 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:57:10] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 16:57:10,743 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:57:10] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:57:17,557 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:57:17,645 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:57:17] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:57:18,287 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:57:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:57:18,287 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:57:18] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 16:57:57,029 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 16:57:57,175 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 16:57:57] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:57:57,750 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 16:57:57] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:57:57,750 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 16:57:57] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 16:58:02,378 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 16:58:02] "GET /about HTTP/1.1" 200 -
+2022-01-09 16:58:02,682 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 16:58:02] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 16:58:02,686 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 16:58:02] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:08:08,313 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:08:10,204 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:08:10] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:08:10,737 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:08:10] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:08:10,741 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:08:10] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:08:46,144 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 17:08:46] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:08:46,530 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:08:46] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:08:46,532 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:08:46] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:09:16,537 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:09:20,195 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:09:20] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:09:20,763 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:09:20] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:09:20,766 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:09:20] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:09:28,659 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 17:09:28] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:09:28,988 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:09:28] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:09:28,989 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:09:28] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:09:30,622 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 17:09:30] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:09:30,896 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 17:09:30] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:09:30,897 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 17:09:30] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:09:35,316 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:09:35,749 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:09:35] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:09:36,353 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:09:36] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:09:36,353 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:09:36] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:20:14,539 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 17:20:14] "GET /departments HTTP/1.1" 200 -
+2022-01-09 17:20:14,967 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:20:14] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 17:20:14,968 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:20:14] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-09 17:24:45,314 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 17:24:45] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:24:45,692 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 17:24:45] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:24:45,705 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 17:24:45] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:25:17,714 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:25:19,114 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:25:19] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:25:19,731 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:25:19] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:25:19,731 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:25:19] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:26:16,315 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:26:17,015 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:26:17] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:26:17,754 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:26:17] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:26:17,756 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:26:17] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:26:25,811 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:26:25] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:26:26,154 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:26:26] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:26:26,156 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 17:26:26] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:26:26,315 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 17:26:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-09 17:26:30,644 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:26:31,483 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:26:31] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:26:32,122 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:26:32] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:26:32,123 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:26:32] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:26:55,504 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:26:58,736 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:26:58] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:26:59,503 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:26:59] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:26:59,504 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:26:59] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:27:59,821 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 17:27:59] "GET /departments HTTP/1.1" 200 -
+2022-01-09 17:28:00,172 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:28:00] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:28:00,175 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:28:00] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 17:28:00,395 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 17:28:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-09 17:28:13,118 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:28:17,470 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:28:17] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:28:18,066 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:28:18] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:28:18,067 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:28:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:28:20,649 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:28:20] "GET /departments HTTP/1.1" 200 -
+2022-01-09 17:28:20,976 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:28:20] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:28:20,977 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 17:28:20] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 17:28:47,385 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 17:28:47] "GET /departments HTTP/1.1" 200 -
+2022-01-09 17:28:47,803 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 17:28:47] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:28:47,808 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 17:28:47] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 17:29:20,660 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:29:20,920 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:29:20] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:29:21,497 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:29:21] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:29:21,498 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:29:21] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:29:25,529 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 17:29:25] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:29:25,984 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:29:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:29:25,989 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:29:25] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:29:36,040 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 17:29:36] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:29:36,346 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 17:29:36] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:29:36,347 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 17:29:36] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:30:58,860 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:31:00,781 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:31:00] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:31:01,403 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:31:01] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:31:01,404 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:31:01] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:31:29,089 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 17:31:29] "GET /departments HTTP/1.1" 200 -
+2022-01-09 17:31:29,466 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:31:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:31:29,466 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:31:29] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 17:36:23,564 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:36:27,077 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:36:27] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:36:27,824 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:36:27] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:36:27,825 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:36:27] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:39:17,316 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:39:17,454 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:39:17] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:39:17,989 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:39:17] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:39:17,989 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:39:17] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 17:39:34,605 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 17:39:34] "GET /departments HTTP/1.1" 200 -
+2022-01-09 17:39:34,968 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 17:39:34] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:39:34,969 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 17:39:34] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-09 17:39:36,024 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 17:39:36] "GET /department/add HTTP/1.1" 200 -
+2022-01-09 17:39:36,493 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 17:39:36] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:39:36,494 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 17:39:36] "GET /static/css/manage_departments.css HTTP/1.1" 200 -
+2022-01-09 17:41:05,116 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:41:08,390 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:41:08] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:41:09,160 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:41:09] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 17:41:09,160 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:41:09] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:41:18,078 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:41:18,361 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:41:18] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:41:19,153 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:41:19] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:41:19,156 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:41:19] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:41:54,388 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:41:55,203 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:41:55] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:41:55,895 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:41:55] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:41:55,899 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:41:55] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:43:14,605 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:43:15,441 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:43:15] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:43:16,121 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:43:16] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:43:16,129 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:43:16] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 17:43:23,129 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:43:24,260 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:43:24] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:43:24,894 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:43:24] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:43:24,895 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:43:24] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:44:55,635 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:44:56,544 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:44:56] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:44:57,184 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:44:57] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:44:57,184 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:44:57] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 17:45:18,086 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:45:18,899 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:45:18] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:45:19,523 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:45:19] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 17:45:19,523 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:45:19] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 17:46:22,191 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:46:27,925 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:46:27] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:46:28,653 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:46:28] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 17:46:28,657 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:46:28] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 17:57:08,995 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 17:57:11,544 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 17:57:11] "GET /about HTTP/1.1" 200 -
+2022-01-09 17:57:12,338 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 17:57:12] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 17:57:12,345 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 17:57:12] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 18:00:28,249 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:00:28,881 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:00:28] "GET /about HTTP/1.1" 200 -
+2022-01-09 18:00:29,608 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:00:29] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 18:00:29,609 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:00:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:00:38,379 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:00:38,850 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:00:38] "GET /about HTTP/1.1" 200 -
+2022-01-09 18:00:39,489 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:00:39] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 18:00:39,490 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:00:39] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:03:57,875 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 18:03:57] "GET /departments HTTP/1.1" 200 -
+2022-01-09 18:03:58,327 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 18:03:58] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:03:58,340 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 18:03:58] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-09 18:03:58,961 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 18:03:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-09 18:04:03,944 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 18:04:03] "GET /department/add HTTP/1.1" 200 -
+2022-01-09 18:04:04,216 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 18:04:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:04:04,219 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 18:04:04] "GET /static/css/manage_departments.css HTTP/1.1" 200 -
+2022-01-09 18:04:07,091 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 18:04:07] "[32mPOST /department/add HTTP/1.1[0m" 302 -
+2022-01-09 18:04:07,124 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 18:04:07] "GET /departments HTTP/1.1" 200 -
+2022-01-09 18:04:07,520 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 18:04:07] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:04:07,521 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 18:04:07] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 18:04:09,721 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 18:04:09] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/edit HTTP/1.1" 200 -
+2022-01-09 18:04:10,039 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 18:04:10] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:04:10,041 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 18:04:10] "[36mGET /static/css/manage_departments.css HTTP/1.1[0m" 304 -
+2022-01-09 18:12:25,884 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:12:36,369 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:12:36] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/edit HTTP/1.1" 200 -
+2022-01-09 18:12:37,100 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:12:37] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 18:12:37,106 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:12:37] "[36mGET /static/css/manage_departments.css HTTP/1.1[0m" 304 -
+2022-01-09 18:12:37,203 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 18:12:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-09 18:12:48,576 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:12:48,775 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:12:48] "GET /about HTTP/1.1" 200 -
+2022-01-09 18:12:49,408 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:12:49] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:12:49,409 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:12:49] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 18:13:07,185 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:13:08,490 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:13:08] "GET /about HTTP/1.1" 200 -
+2022-01-09 18:13:09,104 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:13:09] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 18:13:09,104 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:13:09] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:17:35,124 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 18:17:35] "GET /departments HTTP/1.1" 200 -
+2022-01-09 18:17:35,479 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 18:17:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:17:35,484 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 18:17:35] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-09 18:18:29,119 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:18:29,995 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:18:29] "GET /about HTTP/1.1" 200 -
+2022-01-09 18:18:30,808 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:18:30] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:18:30,809 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:18:30] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 18:20:08,044 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:20:10,808 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:20:10] "GET /departments HTTP/1.1" 200 -
+2022-01-09 18:20:11,547 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:20:11] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 18:20:11,548 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:20:11] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:28:10,254 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 18:28:10] "GET /departments HTTP/1.1" 200 -
+2022-01-09 18:28:10,752 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 18:28:10] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:28:10,753 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 18:28:10] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 18:41:28,623 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 18:41:28] "GET /about HTTP/1.1" 200 -
+2022-01-09 18:41:28,976 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 18:41:28] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 18:41:28,978 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 18:41:28] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 18:41:49,891 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:42:23,138 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 18:42:23,792 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 18:42:23] "GET /about HTTP/1.1" 200 -
+2022-01-09 18:42:24,650 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 18:42:24] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 18:42:24,651 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 18:42:24] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:59:10,122 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 18:59:10] "GET /departments HTTP/1.1" 200 -
+2022-01-09 18:59:10,588 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 18:59:10] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 18:59:10,600 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 18:59:10] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-09 18:59:10,997 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 18:59:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-09 18:59:11,592 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 18:59:11] "GET /employees HTTP/1.1" 200 -
+2022-01-09 18:59:12,238 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 18:59:12] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 18:59:12,240 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 18:59:12] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-09 19:03:14,253 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 19:03:14] "GET /employees HTTP/1.1" 200 -
+2022-01-09 19:03:14,504 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 19:03:14] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:03:14,505 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 19:03:14] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-09 19:03:26,021 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 19:03:26] "GET /employee/add HTTP/1.1" 200 -
+2022-01-09 19:03:26,381 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 19:03:26] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:03:26,389 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 19:03:26] "GET /static/css/manage_employees.css HTTP/1.1" 200 -
+2022-01-09 19:05:45,168 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:09:53,986 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:09:56,097 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:09:56] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:09:56,745 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:09:56] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:09:56,745 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:09:56] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 19:13:02,703 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:13:03,405 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:13:03] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:13:04,133 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:13:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:13:04,133 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:13:04] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 19:13:19,494 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:13:19,907 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:13:19] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:13:20,563 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:13:20] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:13:20,564 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:13:20] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 19:18:46,901 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:18:48,211 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:18:48] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:18:48,781 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:18:48] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:18:48,782 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:18:48] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 19:19:23,049 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:19:29,900 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:19:29] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:19:30,612 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:19:30] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:19:30,615 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:19:30] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:34:52,788 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:34:52] "GET /employee/add HTTP/1.1" 200 -
+2022-01-09 19:34:53,310 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:34:53] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:34:53,310 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:34:53] "GET /static/css/manage_employees.css HTTP/1.1" 200 -
+2022-01-09 19:35:00,058 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:35:00] "[32mPOST /employee/add HTTP/1.1[0m" 302 -
+2022-01-09 19:35:00,114 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:35:00] "GET /employees HTTP/1.1" 200 -
+2022-01-09 19:35:00,478 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:35:00] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:35:00,479 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 19:35:00] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-09 19:35:02,104 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 19:35:02] "GET /employee/bfa89dbf-05bd-451f-b1d2-071061e30284/edit HTTP/1.1" 200 -
+2022-01-09 19:35:02,574 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 19:35:02] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:35:02,576 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 19:35:02] "[36mGET /static/css/manage_employees.css HTTP/1.1[0m" 304 -
+2022-01-09 19:35:11,313 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 19:35:11] "GET /departments HTTP/1.1" 200 -
+2022-01-09 19:35:11,625 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 19:35:11] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:35:11,628 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 19:35:11] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-09 19:35:14,102 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 19:35:14] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/edit HTTP/1.1" 200 -
+2022-01-09 19:35:14,629 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 19:35:14] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:35:14,649 INFO werkzeug Thread-19 : 127.0.0.1 - - [09/Jan/2022 19:35:14] "GET /static/css/manage_departments.css HTTP/1.1" 200 -
+2022-01-09 19:35:56,654 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:35:57,419 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:35:57] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/edit HTTP/1.1" 200 -
+2022-01-09 19:35:58,041 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:35:58] "[36mGET /static/css/manage_departments.css HTTP/1.1[0m" 304 -
+2022-01-09 19:35:58,044 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:35:58] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:36:31,891 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:36:31] "GET /employees HTTP/1.1" 200 -
+2022-01-09 19:36:32,306 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:36:32] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:36:32,307 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:36:32] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-09 19:36:54,367 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:36:54] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:36:54,867 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:36:54] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:36:54,869 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:36:54] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-09 19:38:57,981 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:40:07,822 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:40:07] "GET /departments HTTP/1.1" 200 -
+2022-01-09 19:40:08,581 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:40:08] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:40:08,582 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:40:08] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 19:40:32,945 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:40:34,256 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:40:34] "GET /employees HTTP/1.1" 200 -
+2022-01-09 19:40:35,021 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:40:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:40:35,022 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:40:35] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-09 19:40:38,173 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:40:38] "GET /departments HTTP/1.1" 200 -
+2022-01-09 19:40:38,661 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:40:38] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:40:38,663 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:40:38] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-09 19:40:45,005 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:40:45] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:40:45,419 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:40:45] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:40:45,420 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:40:45] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:42:34,602 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 19:42:34] "GET / HTTP/1.1" 200 -
+2022-01-09 19:42:35,064 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 19:42:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:42:35,066 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 19:42:35] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 19:42:35,075 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 19:42:35] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:42:35,075 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 19:42:35] "GET /static/images/workspace.jpg HTTP/1.1" 200 -
+2022-01-09 19:42:35,077 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 19:42:35] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:42:58,793 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 19:42:58] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:42:59,034 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 19:42:59] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:42:59,035 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 19:42:59] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:43:51,694 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:43:52,353 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:43:52] "GET / HTTP/1.1" 200 -
+2022-01-09 19:43:52,931 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:43:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:43:52,932 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:43:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:43:52,941 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:43:52] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:43:52,942 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:43:52] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:43:52,943 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:43:52] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:44:24,227 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:44:24] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:44:24,502 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:44:24] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:44:24,504 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:44:24] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:44:54,988 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 19:44:54] "GET / HTTP/1.1" 200 -
+2022-01-09 19:44:55,372 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 19:44:55] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:44:55,374 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 19:44:55] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:44:55,380 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 19:44:55] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:44:55,382 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 19:44:55] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:44:55,383 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 19:44:55] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:45:19,519 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 19:45:19] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:45:19,768 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 19:45:19] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:45:19,769 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 19:45:19] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:46:06,387 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:46:09,350 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:46:09] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:46:10,041 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:46:10] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:46:10,041 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:46:10] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:46:43,819 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:46:45,579 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:46:45] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:46:46,340 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:46:46] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:46:46,341 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:46:46] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:46:52,627 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:46:52] "GET / HTTP/1.1" 200 -
+2022-01-09 19:46:52,867 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:46:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:46:52,871 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:46:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:46:52,879 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:46:52] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:46:52,880 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:46:52] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:46:52,881 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:46:52] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:47:07,317 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 19:47:07] "GET / HTTP/1.1" 200 -
+2022-01-09 19:47:34,285 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 19:47:34] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:47:34,719 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 19:47:34] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:47:34,720 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 19:47:34] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:47:41,333 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 19:47:41] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:48:00,115 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:48:02,363 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:48:02] "GET /about HTTP/1.1" 200 -
+2022-01-09 19:48:03,069 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:48:03] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+2022-01-09 19:48:03,069 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:48:03] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:48:04,509 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:48:04] "GET / HTTP/1.1" 200 -
+2022-01-09 19:48:04,990 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:48:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:48:04,992 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:48:04] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:48:04,999 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:48:04] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:05,000 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:48:05] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:05,002 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:48:05] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:20,875 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:48:23,983 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:48:23] "GET / HTTP/1.1" 200 -
+2022-01-09 19:48:24,603 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:48:24] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:48:24,604 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:48:24] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:48:24,609 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:48:24] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:24,609 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:48:24] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:24,610 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:48:24] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:33,683 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:48:34,953 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:48:34] "GET / HTTP/1.1" 200 -
+2022-01-09 19:48:35,724 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:48:35] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:48:35,724 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:48:35] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:48:35,732 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:48:35] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:35,733 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:48:35] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:48:35,734 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:48:35] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:49:04,537 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:49:04] "GET / HTTP/1.1" 200 -
+2022-01-09 19:49:04,789 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:49:04] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:49:04,790 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:49:04] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:49:04,797 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 19:49:04] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:49:04,799 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 19:49:04] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:49:04,800 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 19:49:04] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:50:23,236 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:50:25,983 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:50:25] "GET / HTTP/1.1" 200 -
+2022-01-09 19:50:26,713 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:50:26] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 19:50:26,770 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:50:26] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 19:50:26,775 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:50:26] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:50:26,776 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:50:26] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:50:26,776 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:50:26] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:51:22,773 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:51:23,160 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:51:23] "GET / HTTP/1.1" 200 -
+2022-01-09 19:51:23,702 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:51:23] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:51:23,705 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:51:23] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 19:51:23,713 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:51:23] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:51:23,714 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:51:23] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:51:23,715 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:51:23] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:52:41,476 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:52:43,285 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:52:43] "GET / HTTP/1.1" 200 -
+2022-01-09 19:52:43,992 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:52:43] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 19:52:43,993 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:52:43] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:52:43,998 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:52:43] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:52:44,000 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:52:44] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:52:44,003 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:52:44] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:52:55,097 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:52:55,965 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:52:55] "GET / HTTP/1.1" 200 -
+2022-01-09 19:52:56,495 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:52:56] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 19:52:56,498 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:52:56] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:52:56,504 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:52:56] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:52:56,506 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:52:56] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:52:56,507 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:52:56] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:53:33,362 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:53:34,879 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:53:34] "GET / HTTP/1.1" 200 -
+2022-01-09 19:53:35,471 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:53:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:53:35,472 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:53:35] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 19:53:35,479 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:53:35] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:53:35,480 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:53:35] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:53:35,481 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:53:35] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:53:53,429 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 19:53:56,586 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 19:53:56] "GET / HTTP/1.1" 200 -
+2022-01-09 19:53:57,314 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 19:53:57] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:53:57,314 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 19:53:57] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 19:53:57,320 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 19:53:57] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:53:57,322 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 19:53:57] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:53:57,323 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 19:53:57] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:59:30,708 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 19:59:30] "GET / HTTP/1.1" 200 -
+2022-01-09 19:59:31,126 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 19:59:31] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 19:59:31,128 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 19:59:31] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 19:59:31,133 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 19:59:31] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:59:31,135 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 19:59:31] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 19:59:31,137 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 19:59:31] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:25,089 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:00:27,353 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:00:27] "GET / HTTP/1.1" 200 -
+2022-01-09 20:00:27,938 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:00:27] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:00:27,939 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:00:27] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:00:27,945 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:00:27] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:27,945 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:00:27] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:27,946 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:00:27] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:37,248 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:00:37,981 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:00:37] "GET / HTTP/1.1" 200 -
+2022-01-09 20:00:38,728 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:00:38] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:00:38,729 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:00:38] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:00:38,734 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:00:38] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:38,735 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:00:38] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:38,736 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:00:38] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:53,559 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:00:53,809 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:00:53] "GET / HTTP/1.1" 200 -
+2022-01-09 20:00:54,322 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:00:54] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:00:54,322 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:00:54] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:00:54,327 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:00:54] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:54,327 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:00:54] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:00:54,328 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:00:54] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:01:10,286 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:01:12,540 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:01:12] "GET / HTTP/1.1" 200 -
+2022-01-09 20:01:13,327 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:01:13] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:01:13,328 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:01:13] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:01:13,336 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:01:13] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:01:13,338 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:01:13] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:01:13,338 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:01:13] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:01:23,728 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:01:24,057 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:01:24] "GET / HTTP/1.1" 200 -
+2022-01-09 20:01:24,692 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:01:24] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:01:24,692 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:01:24] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:01:24,697 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:01:24] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:01:24,697 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:01:24] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:01:24,699 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:01:24] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:02:25,907 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:02:28,768 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:02:28] "GET / HTTP/1.1" 200 -
+2022-01-09 20:02:29,480 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:02:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:02:29,481 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:02:29] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:02:29,485 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:02:29] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:02:29,486 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:02:29] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:02:29,487 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:02:29] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:04:33,109 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:04:34,556 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:04:34] "GET / HTTP/1.1" 200 -
+2022-01-09 20:04:35,190 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:04:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:04:35,190 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:04:35] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:04:35,197 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:04:35] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:04:35,197 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:04:35] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:04:35,199 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:04:35] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:08:01,272 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:08:04,646 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:08:04] "GET / HTTP/1.1" 200 -
+2022-01-09 20:08:05,256 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:08:05] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:08:05,257 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:08:05] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:08:05,262 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:08:05] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:08:05,263 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:08:05] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:08:05,264 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:08:05] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:12:06,634 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:12:06] "GET / HTTP/1.1" 200 -
+2022-01-09 20:12:07,054 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:12:07] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:12:07,054 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:12:07] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:12:07,071 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:12:07] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:12:07,072 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:12:07] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:12:07,073 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:12:07] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:12:48,577 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:12:51,603 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:12:51] "GET / HTTP/1.1" 200 -
+2022-01-09 20:12:52,183 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:12:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:12:52,183 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:12:52] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:12:52,189 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:12:52] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:12:52,189 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:12:52] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:12:52,190 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:12:52] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:08,941 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:13:09,640 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:13:09] "GET / HTTP/1.1" 200 -
+2022-01-09 20:13:10,312 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:13:10] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:10,313 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:13:10] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:13:10,325 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:13:10] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:10,326 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:13:10] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:10,327 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:13:10] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:16,379 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:13:16,634 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:13:16] "GET / HTTP/1.1" 200 -
+2022-01-09 20:13:17,198 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:13:17] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:17,200 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:13:17] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:13:17,207 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:13:17] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:17,207 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:13:17] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:17,208 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:13:17] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:18,599 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:13:18] "GET / HTTP/1.1" 200 -
+2022-01-09 20:13:18,863 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:13:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:18,868 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:13:18] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:18,898 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:13:18] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:18,899 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:13:18] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:18,901 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:13:18] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:45,629 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 20:13:45] "GET / HTTP/1.1" 200 -
+2022-01-09 20:13:45,987 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 20:13:45] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:45,988 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 20:13:45] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:13:46,004 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 20:13:46] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:46,007 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 20:13:46] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:46,010 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 20:13:46] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:52,303 INFO werkzeug Thread-19 : 127.0.0.1 - - [09/Jan/2022 20:13:52] "GET / HTTP/1.1" 200 -
+2022-01-09 20:13:52,528 INFO werkzeug Thread-20 : 127.0.0.1 - - [09/Jan/2022 20:13:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:52,530 INFO werkzeug Thread-21 : 127.0.0.1 - - [09/Jan/2022 20:13:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:52,537 INFO werkzeug Thread-22 : 127.0.0.1 - - [09/Jan/2022 20:13:52] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:52,539 INFO werkzeug Thread-23 : 127.0.0.1 - - [09/Jan/2022 20:13:52] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:52,539 INFO werkzeug Thread-24 : 127.0.0.1 - - [09/Jan/2022 20:13:52] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:55,833 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:13:56,627 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:13:56] "GET / HTTP/1.1" 200 -
+2022-01-09 20:13:57,162 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:13:57] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:13:57,163 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:13:57] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:13:57,173 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:13:57] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:57,174 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:13:57] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:13:57,174 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:13:57] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:14:00,960 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:14:00] "GET / HTTP/1.1" 200 -
+2022-01-09 20:14:38,338 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:14:38] "GET / HTTP/1.1" 200 -
+2022-01-09 20:14:38,702 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:14:38] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:14:38,704 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:14:38] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:14:38,712 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 20:14:38] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:14:38,713 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:14:38] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:14:38,715 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:14:38] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:24,426 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:15:27,244 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:15:27] "GET / HTTP/1.1" 200 -
+2022-01-09 20:15:27,787 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:15:27] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:15:27,788 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:15:27] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:15:27,793 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:15:27] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:27,793 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:15:27] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:27,794 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:15:27] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:44,197 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:15:44,832 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:15:44] "GET / HTTP/1.1" 200 -
+2022-01-09 20:15:45,558 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:15:45] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:15:45,559 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:15:45] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:15:45,566 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:15:45] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:45,567 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:15:45] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:45,568 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:15:45] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:52,497 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:15:52] "GET / HTTP/1.1" 200 -
+2022-01-09 20:15:52,713 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:15:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:15:52,713 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:15:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:15:52,721 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:15:52] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:52,721 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:15:52] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:15:52,723 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:15:52] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:05,490 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:16:05,872 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:16:05] "GET / HTTP/1.1" 200 -
+2022-01-09 20:16:06,667 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:16:06] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:16:06,667 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:16:06] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:16:06,672 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:16:06] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:06,673 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:16:06] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:06,673 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:16:06] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:21,365 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:16:22,897 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:16:22] "GET / HTTP/1.1" 200 -
+2022-01-09 20:16:23,408 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:16:23] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:16:23,409 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:16:23] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:16:23,414 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:16:23] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:23,414 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:16:23] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:23,416 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:16:23] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:39,904 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:16:40,091 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:16:40] "GET / HTTP/1.1" 200 -
+2022-01-09 20:16:40,698 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:16:40] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:16:40,698 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:16:40] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:16:40,703 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:16:40] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:40,704 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:16:40] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:16:40,704 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:16:40] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:09,244 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:17:10,096 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:17:10] "GET / HTTP/1.1" 200 -
+2022-01-09 20:17:10,615 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:17:10] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:17:10,615 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:17:10] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:17:10,630 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:17:10] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:10,630 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:17:10] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:10,632 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:17:10] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:28,661 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:17:28,910 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:17:28] "GET / HTTP/1.1" 200 -
+2022-01-09 20:17:29,467 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:17:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:17:29,467 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:17:29] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:17:29,482 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:17:29] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:29,483 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:17:29] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:29,483 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:17:29] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:34,866 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:17:35,491 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:17:35] "GET / HTTP/1.1" 200 -
+2022-01-09 20:17:36,177 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:17:36] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:17:36,178 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:17:36] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:17:36,183 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:17:36] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:36,183 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:17:36] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:36,184 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:17:36] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:49,112 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:17:49,375 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:17:49] "GET / HTTP/1.1" 200 -
+2022-01-09 20:17:49,902 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:17:49] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:17:49,903 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:17:49] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:17:49,907 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:17:49] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:49,908 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:17:49] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:17:49,909 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:17:49] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:18:00,518 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:18:00,690 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:18:00] "GET / HTTP/1.1" 200 -
+2022-01-09 20:18:01,368 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:18:01] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:18:01,369 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:18:01] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:18:01,380 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:18:01] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:18:01,381 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:18:01] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:18:01,382 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:18:01] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:20:10,326 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:20:24,314 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:20:24,365 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:20:24] "GET / HTTP/1.1" 200 -
+2022-01-09 20:20:25,093 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:20:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:20:25,093 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:20:25] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:20:25,098 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:20:25] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:20:25,098 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:20:25] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:20:25,100 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:20:25] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:21:25,998 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:21:27,235 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:21:27] "GET / HTTP/1.1" 200 -
+2022-01-09 20:21:27,803 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:21:27] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:21:27,804 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:21:27] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:21:27,809 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:21:27] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:21:27,810 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:21:27] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:21:27,812 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:21:27] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:27:30,035 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:27:30] "GET / HTTP/1.1" 200 -
+2022-01-09 20:27:30,388 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:27:30] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:27:30,389 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:27:30] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:27:30,425 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:27:30] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:27:30,501 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:27:30] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:27:30,502 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 20:27:30] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:28:22,227 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:28:25,791 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:28:25] "GET / HTTP/1.1" 200 -
+2022-01-09 20:28:26,349 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:28:26] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:28:26,349 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:28:26] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:28:26,355 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:28:26] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:28:26,355 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:28:26] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:28:26,356 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:28:26] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:28:38,235 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:28:39,872 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:28:39] "GET / HTTP/1.1" 200 -
+2022-01-09 20:28:40,541 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:28:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:28:40,542 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:28:40] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:28:40,547 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:28:40] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:28:40,547 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:28:40] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:28:40,549 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:28:40] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:31:10,818 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:31:10] "GET / HTTP/1.1" 200 -
+2022-01-09 20:31:11,208 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:31:11] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:31:11,209 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:31:11] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:31:11,225 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:31:11] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:31:11,226 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:31:11] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:31:11,227 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:31:11] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:32:40,003 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 20:32:40] "GET / HTTP/1.1" 200 -
+2022-01-09 20:32:40,245 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 20:32:40] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:32:40,245 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 20:32:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:32:40,363 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 20:32:40] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:32:40,364 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 20:32:40] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:32:40,365 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 20:32:40] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:33:29,091 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:33:29,304 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:33:29] "GET / HTTP/1.1" 200 -
+2022-01-09 20:33:29,913 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:33:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:33:29,915 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:33:29] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:33:29,923 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:33:29] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:33:29,924 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:33:29] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:33:29,924 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:33:29] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:33:44,112 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:33:44] "GET / HTTP/1.1" 200 -
+2022-01-09 20:33:44,446 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:33:44] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:33:44,447 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:33:44] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:33:44,452 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:33:44] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:33:44,452 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:33:44] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:33:44,453 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:33:44] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:33:59,753 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:34:03,923 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:34:03] "GET / HTTP/1.1" 200 -
+2022-01-09 20:34:04,484 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:34:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:34:04,485 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:34:04] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:34:04,496 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:34:04] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:04,498 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:34:04] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:04,498 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:34:04] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:15,991 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:34:16,775 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:34:16] "GET / HTTP/1.1" 200 -
+2022-01-09 20:34:17,273 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:34:17] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:34:17,273 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:34:17] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:34:17,279 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:34:17] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:17,279 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:34:17] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:17,280 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:34:17] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:46,076 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:34:46,272 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:34:46] "GET / HTTP/1.1" 200 -
+2022-01-09 20:34:46,927 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:34:46] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:34:46,928 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:34:46] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:34:46,940 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:34:46] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:46,941 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:34:46] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:46,943 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:34:46] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:57,603 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:34:57,640 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:34:57] "GET / HTTP/1.1" 200 -
+2022-01-09 20:34:58,180 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:34:58] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:34:58,181 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:34:58] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:34:58,185 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:34:58] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:58,186 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:34:58] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:34:58,187 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:34:58] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:17,620 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:38:17] "GET / HTTP/1.1" 200 -
+2022-01-09 20:38:17,955 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:38:17] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:38:17,956 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:38:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:38:17,980 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:38:17] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:17,981 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:38:17] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:17,993 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 20:38:17] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:22,110 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 20:38:22] "GET / HTTP/1.1" 200 -
+2022-01-09 20:38:22,467 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 20:38:22] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:38:22,470 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 20:38:22] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:38:22,485 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 20:38:22] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:22,485 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 20:38:22] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:22,486 INFO werkzeug Thread-19 : 127.0.0.1 - - [09/Jan/2022 20:38:22] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:34,501 INFO werkzeug Thread-20 : 127.0.0.1 - - [09/Jan/2022 20:38:34] "GET / HTTP/1.1" 200 -
+2022-01-09 20:38:34,751 INFO werkzeug Thread-21 : 127.0.0.1 - - [09/Jan/2022 20:38:34] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:38:34,752 INFO werkzeug Thread-22 : 127.0.0.1 - - [09/Jan/2022 20:38:34] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:38:34,776 INFO werkzeug Thread-23 : 127.0.0.1 - - [09/Jan/2022 20:38:34] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:34,776 INFO werkzeug Thread-24 : 127.0.0.1 - - [09/Jan/2022 20:38:34] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:38:34,777 INFO werkzeug Thread-25 : 127.0.0.1 - - [09/Jan/2022 20:38:34] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:39:16,379 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:39:16,544 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:39:16] "GET / HTTP/1.1" 200 -
+2022-01-09 20:39:17,176 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:39:17] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 20:39:17,176 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:39:17] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:39:17,181 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:39:17] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:39:17,182 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:39:17] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:39:17,183 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:39:17] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:39:27,920 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:39:28,397 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:39:28] "GET / HTTP/1.1" 200 -
+2022-01-09 20:39:28,919 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:39:28] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:39:28,922 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:39:28] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 20:39:28,930 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:39:28] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:39:28,931 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:39:28] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:39:28,933 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:39:28] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:42:27,801 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:42:27] "GET / HTTP/1.1" 200 -
+2022-01-09 20:42:28,126 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:42:28] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 20:42:28,126 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:42:28] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:42:28,243 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:42:28] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:42:28,244 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:42:28] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:42:28,245 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:42:28] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:42:47,691 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 20:42:47] "GET / HTTP/1.1" 200 -
+2022-01-09 20:42:47,944 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 20:42:47] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 20:42:47,944 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 20:42:47] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:42:48,075 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 20:42:48] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:42:48,076 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 20:42:48] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:42:48,076 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 20:42:48] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:02,837 INFO werkzeug Thread-19 : 127.0.0.1 - - [09/Jan/2022 20:43:02] "GET / HTTP/1.1" 200 -
+2022-01-09 20:43:03,200 INFO werkzeug Thread-20 : 127.0.0.1 - - [09/Jan/2022 20:43:03] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 20:43:03,200 INFO werkzeug Thread-21 : 127.0.0.1 - - [09/Jan/2022 20:43:03] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:43:03,216 INFO werkzeug Thread-22 : 127.0.0.1 - - [09/Jan/2022 20:43:03] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:03,217 INFO werkzeug Thread-23 : 127.0.0.1 - - [09/Jan/2022 20:43:03] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:03,218 INFO werkzeug Thread-24 : 127.0.0.1 - - [09/Jan/2022 20:43:03] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:21,159 INFO werkzeug Thread-25 : 127.0.0.1 - - [09/Jan/2022 20:43:21] "GET / HTTP/1.1" 200 -
+2022-01-09 20:43:21,387 INFO werkzeug Thread-26 : 127.0.0.1 - - [09/Jan/2022 20:43:21] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 20:43:21,387 INFO werkzeug Thread-27 : 127.0.0.1 - - [09/Jan/2022 20:43:21] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:43:21,413 INFO werkzeug Thread-28 : 127.0.0.1 - - [09/Jan/2022 20:43:21] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:21,415 INFO werkzeug Thread-29 : 127.0.0.1 - - [09/Jan/2022 20:43:21] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:21,416 INFO werkzeug Thread-30 : 127.0.0.1 - - [09/Jan/2022 20:43:21] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:43,149 INFO werkzeug Thread-31 : 127.0.0.1 - - [09/Jan/2022 20:43:43] "GET / HTTP/1.1" 200 -
+2022-01-09 20:43:43,467 INFO werkzeug Thread-32 : 127.0.0.1 - - [09/Jan/2022 20:43:43] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-09 20:43:43,483 INFO werkzeug Thread-33 : 127.0.0.1 - - [09/Jan/2022 20:43:43] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:43:43,589 INFO werkzeug Thread-34 : 127.0.0.1 - - [09/Jan/2022 20:43:43] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:43,589 INFO werkzeug Thread-35 : 127.0.0.1 - - [09/Jan/2022 20:43:43] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:43:43,590 INFO werkzeug Thread-36 : 127.0.0.1 - - [09/Jan/2022 20:43:43] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:51:10,426 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:51:12,409 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:51:12] "GET / HTTP/1.1" 200 -
+2022-01-09 20:51:13,074 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:51:13] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:51:13,074 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:51:13] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:51:13,079 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:51:13] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:51:13,080 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:51:13] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:51:13,080 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:51:13] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:51:49,654 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:51:51,449 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:51:51] "GET / HTTP/1.1" 200 -
+2022-01-09 20:51:51,967 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:51:51] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:51:51,970 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:51:51] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:51:51,975 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:51:51] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:51:51,975 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:51:51] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:51:51,976 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:51:51] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:52:30,234 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:52:30,509 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:52:30] "GET / HTTP/1.1" 200 -
+2022-01-09 20:52:31,136 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:52:31] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:52:31,136 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:52:31] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:52:31,141 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:52:31] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:52:31,142 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:52:31] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:52:31,142 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:52:31] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:52:49,952 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:52:51,244 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:52:51] "GET / HTTP/1.1" 200 -
+2022-01-09 20:52:51,769 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:52:51] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:52:51,769 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:52:51] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:52:51,774 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:52:51] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:52:51,775 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:52:51] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:52:51,775 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:52:51] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:53:32,227 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:53:32,660 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:53:32] "GET / HTTP/1.1" 200 -
+2022-01-09 20:53:33,313 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:53:33] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:53:33,313 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:53:33] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:53:33,318 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:53:33] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:53:33,319 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:53:33] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:53:33,320 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:53:33] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:22,181 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:54:23,071 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:54:23] "GET / HTTP/1.1" 200 -
+2022-01-09 20:54:23,594 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:54:23] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:54:23,594 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:54:23] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:54:23,607 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:54:23] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:23,608 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:54:23] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:23,609 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:54:23] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:37,600 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:54:37] "GET / HTTP/1.1" 200 -
+2022-01-09 20:54:37,886 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:54:37] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:54:37,887 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:54:37] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:54:37,891 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:54:37] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:37,892 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:54:37] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:37,893 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:54:37] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:55,106 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 20:54:55] "GET / HTTP/1.1" 200 -
+2022-01-09 20:54:55,368 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 20:54:55] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:54:55,368 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 20:54:55] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:54:55,374 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 20:54:55] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:55,375 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 20:54:55] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:54:55,375 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 20:54:55] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:01,535 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:55:02,197 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:55:02] "GET / HTTP/1.1" 200 -
+2022-01-09 20:55:02,767 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:55:02] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:55:02,768 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:55:02] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:55:02,784 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:55:02] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:02,784 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:55:02] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:02,786 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:55:02] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:20,365 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:55:21,785 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:55:21] "GET / HTTP/1.1" 200 -
+2022-01-09 20:55:22,428 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:55:22] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:55:22,428 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:55:22] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:55:22,433 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:55:22] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:22,434 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:55:22] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:22,435 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:55:22] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:31,945 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:55:33,192 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:55:33] "GET / HTTP/1.1" 200 -
+2022-01-09 20:55:33,802 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:55:33] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:55:33,802 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:55:33] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:55:33,807 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:55:33] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:33,808 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:55:33] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:33,808 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:55:33] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:45,863 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:55:47,368 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:55:47] "GET / HTTP/1.1" 200 -
+2022-01-09 20:55:48,038 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:55:48] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:55:48,039 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:55:48] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:55:48,045 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:55:48] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:48,045 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:55:48] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:55:48,045 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:55:48] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:04,471 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:56:06,010 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:56:06] "GET / HTTP/1.1" 200 -
+2022-01-09 20:56:06,627 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:56:06] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:56:06,628 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:56:06] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:56:06,633 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:56:06] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:06,634 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:56:06] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:06,635 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:56:06] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:26,087 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:56:26,543 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:56:26] "GET / HTTP/1.1" 200 -
+2022-01-09 20:56:27,200 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:56:27] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:56:27,201 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:56:27] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:56:27,207 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:56:27] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:27,207 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:56:27] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:27,208 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:56:27] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:53,725 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:56:54,538 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:56:54] "GET / HTTP/1.1" 200 -
+2022-01-09 20:56:55,043 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:56:55] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:56:55,043 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:56:55] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:56:55,049 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:56:55] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:55,050 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:56:55] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:56:55,051 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:56:55] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:12,976 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:57:12] "GET / HTTP/1.1" 200 -
+2022-01-09 20:57:13,355 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:57:13] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:57:13,356 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:57:13] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:57:13,360 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:57:13] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:13,361 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:57:13] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:13,362 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:57:13] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:17,069 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:57:17,489 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:57:17] "GET / HTTP/1.1" 200 -
+2022-01-09 20:57:18,033 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:57:18] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:57:18,034 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:57:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:57:18,039 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:57:18] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:18,040 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:57:18] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:18,041 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:57:18] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:20,690 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 20:57:20] "GET / HTTP/1.1" 200 -
+2022-01-09 20:57:20,940 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 20:57:20] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:57:20,941 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 20:57:20] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 20:57:20,946 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 20:57:20] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:20,946 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 20:57:20] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:57:20,947 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 20:57:20] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:59:10,800 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 20:59:24,785 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 20:59:24] "GET / HTTP/1.1" 200 -
+2022-01-09 20:59:25,590 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 20:59:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 20:59:25,591 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 20:59:25] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 20:59:25,595 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 20:59:25] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:59:25,596 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 20:59:25] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 20:59:25,597 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 20:59:25] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:02:30,785 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:02:34,734 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:02:34] "GET / HTTP/1.1" 200 -
+2022-01-09 21:02:35,499 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:02:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:02:35,500 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:02:35] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:02:35,506 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:02:35] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:02:35,507 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:02:35] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:02:35,508 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:02:35] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:03:50,200 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:03:50,694 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:03:50] "GET / HTTP/1.1" 200 -
+2022-01-09 21:03:51,397 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:03:51] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:03:51,398 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:03:51] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:03:51,403 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:03:51] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:03:51,403 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:03:51] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:03:51,404 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:03:51] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:04:10,045 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:04:10,308 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:04:10] "GET / HTTP/1.1" 200 -
+2022-01-09 21:04:11,031 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:04:11] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:04:11,031 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:04:11] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:04:11,045 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:04:11] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:04:11,046 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:04:11] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:04:11,046 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:04:11] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:04:39,321 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:04:40,040 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:04:40] "GET / HTTP/1.1" 200 -
+2022-01-09 21:04:40,820 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:04:40] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:04:40,821 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:04:40] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:04:40,827 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:04:40] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:04:40,828 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:04:40] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:04:40,829 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:04:40] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:05:08,131 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 21:05:08] "GET / HTTP/1.1" 200 -
+2022-01-09 21:05:08,610 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 21:05:08] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:05:08,611 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 21:05:08] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:05:08,615 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 21:05:08] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:05:08,616 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 21:05:08] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:05:08,617 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 21:05:08] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:05:44,154 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:05:44,727 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:05:44] "GET / HTTP/1.1" 200 -
+2022-01-09 21:05:45,382 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:05:45] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:05:45,383 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:05:45] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:05:45,388 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:05:45] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:05:45,388 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:05:45] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:05:45,389 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:05:45] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:00,841 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:06:01,523 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:06:01] "GET / HTTP/1.1" 200 -
+2022-01-09 21:06:02,174 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:06:02] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:06:02,174 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:06:02] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:06:02,179 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:06:02] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:02,179 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:06:02] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:02,181 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:06:02] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:38,938 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:06:40,280 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:06:40] "GET / HTTP/1.1" 200 -
+2022-01-09 21:06:41,034 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:06:41] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:06:41,035 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:06:41] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:06:41,039 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:06:41] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:41,040 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:06:41] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:41,041 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:06:41] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:54,855 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 21:06:54] "GET / HTTP/1.1" 200 -
+2022-01-09 21:06:55,277 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 21:06:55] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:06:55,278 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 21:06:55] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:06:55,283 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 21:06:55] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:55,283 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 21:06:55] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:06:55,284 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 21:06:55] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:14,534 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:07:15,767 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:07:15] "GET / HTTP/1.1" 200 -
+2022-01-09 21:07:16,568 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:07:16] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:07:16,569 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:07:16] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:07:16,575 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:07:16] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:16,576 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:07:16] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:16,577 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:07:16] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:25,505 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 21:07:25] "GET / HTTP/1.1" 200 -
+2022-01-09 21:07:25,867 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 21:07:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:07:25,868 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 21:07:25] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:07:25,873 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 21:07:25] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:25,873 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 21:07:25] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:25,874 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 21:07:25] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:32,858 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jan/2022 21:07:32] "GET / HTTP/1.1" 200 -
+2022-01-09 21:07:33,329 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jan/2022 21:07:33] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:07:33,329 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jan/2022 21:07:33] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 21:07:33,334 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jan/2022 21:07:33] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:33,335 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jan/2022 21:07:33] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:33,335 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jan/2022 21:07:33] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:38,190 INFO werkzeug Thread-19 : 127.0.0.1 - - [09/Jan/2022 21:07:38] "GET / HTTP/1.1" 200 -
+2022-01-09 21:07:38,621 INFO werkzeug Thread-20 : 127.0.0.1 - - [09/Jan/2022 21:07:38] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:07:38,622 INFO werkzeug Thread-21 : 127.0.0.1 - - [09/Jan/2022 21:07:38] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 21:07:38,627 INFO werkzeug Thread-22 : 127.0.0.1 - - [09/Jan/2022 21:07:38] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:38,627 INFO werkzeug Thread-23 : 127.0.0.1 - - [09/Jan/2022 21:07:38] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:38,628 INFO werkzeug Thread-24 : 127.0.0.1 - - [09/Jan/2022 21:07:38] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:41,890 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:07:44,189 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:07:44] "GET / HTTP/1.1" 200 -
+2022-01-09 21:07:44,932 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:07:44] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:07:44,933 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:07:44] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:07:44,937 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:07:44] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:44,938 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:07:44] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:07:44,939 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:07:44] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:02,069 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 21:08:02] "GET / HTTP/1.1" 200 -
+2022-01-09 21:08:02,514 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 21:08:02] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:08:02,515 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 21:08:02] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 21:08:02,519 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 21:08:02] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:02,519 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 21:08:02] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:02,520 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 21:08:02] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:23,959 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:08:24,406 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:08:24] "GET / HTTP/1.1" 200 -
+2022-01-09 21:08:25,069 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:08:25] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:08:25,070 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:08:25] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:08:25,075 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:08:25] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:25,075 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:08:25] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:25,076 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:08:25] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:56,075 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:08:56,296 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:08:56] "GET / HTTP/1.1" 200 -
+2022-01-09 21:08:57,038 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:08:57] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:08:57,039 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:08:57] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:08:57,046 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:08:57] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:57,047 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:08:57] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:08:57,048 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:08:57] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:06,770 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:09:06,945 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:09:06] "GET / HTTP/1.1" 200 -
+2022-01-09 21:09:07,662 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:09:07] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:09:07,662 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:09:07] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:09:07,668 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:09:07] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:07,668 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:09:07] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:07,669 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:09:07] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:17,196 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 21:09:17] "GET / HTTP/1.1" 200 -
+2022-01-09 21:09:17,662 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 21:09:17] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:09:17,662 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 21:09:17] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:09:17,671 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 21:09:17] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:17,674 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 21:09:17] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:17,675 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 21:09:17] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:47,707 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:09:48,893 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:09:48] "GET / HTTP/1.1" 200 -
+2022-01-09 21:09:49,556 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:09:49] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:09:49,557 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:09:49] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:09:49,562 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:09:49] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:49,562 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:09:49] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:09:49,563 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:09:49] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:10:03,760 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:10:04,215 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:10:04] "GET / HTTP/1.1" 200 -
+2022-01-09 21:10:04,952 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:10:04] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:10:04,953 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:10:04] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:10:04,957 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:10:04] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:10:04,958 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:10:04] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:10:04,959 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:10:04] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:10:19,270 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:10:20,179 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:10:20] "GET / HTTP/1.1" 200 -
+2022-01-09 21:10:20,886 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:10:20] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:10:20,886 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:10:20] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:10:20,891 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:10:20] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:10:20,892 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:10:20] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:10:20,892 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:10:20] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:10:48,248 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:15:49,937 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:15:52,905 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:15:52] "GET / HTTP/1.1" 200 -
+2022-01-09 21:15:53,838 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:15:53] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:15:53,838 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:15:53] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:15:53,843 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:15:53] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:15:53,844 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:15:53] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:15:53,844 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:15:53] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:16:23,252 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 21:16:23] "GET / HTTP/1.1" 200 -
+2022-01-09 21:16:23,815 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 21:16:23] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:16:23,815 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 21:16:23] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 21:16:23,824 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 21:16:23] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:16:23,825 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 21:16:23] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:16:23,826 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 21:16:23] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:16:40,424 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:16:42,183 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:16:42] "GET / HTTP/1.1" 200 -
+2022-01-09 21:16:42,952 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:16:42] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:16:42,952 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:16:42] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:16:42,963 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:16:42] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:16:42,964 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:16:42] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:16:42,964 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:16:42] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:18:17,621 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jan/2022 21:18:17] "GET / HTTP/1.1" 200 -
+2022-01-09 21:18:18,191 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jan/2022 21:18:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:18:18,192 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jan/2022 21:18:18] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2022-01-09 21:18:18,196 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jan/2022 21:18:18] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:18:18,197 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jan/2022 21:18:18] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:18:18,198 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jan/2022 21:18:18] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:18:27,842 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-09 21:18:28,537 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jan/2022 21:18:28] "GET / HTTP/1.1" 200 -
+2022-01-09 21:18:29,287 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jan/2022 21:18:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-09 21:18:29,288 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jan/2022 21:18:29] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-09 21:18:29,302 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jan/2022 21:18:29] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:18:29,303 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jan/2022 21:18:29] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-09 21:18:29,304 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jan/2022 21:18:29] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-10 01:30:47,026 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-10 01:30:57,222 INFO werkzeug Thread-1 : 127.0.0.1 - - [10/Jan/2022 01:30:57] "GET / HTTP/1.1" 200 -
+2022-01-10 01:30:57,850 INFO werkzeug Thread-2 : 127.0.0.1 - - [10/Jan/2022 01:30:57] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:30:57,850 INFO werkzeug Thread-3 : 127.0.0.1 - - [10/Jan/2022 01:30:57] "GET /static/css/index.css HTTP/1.1" 200 -
+2022-01-10 01:30:57,855 INFO werkzeug Thread-4 : 127.0.0.1 - - [10/Jan/2022 01:30:57] "[36mGET /static/images/office.jpg HTTP/1.1[0m" 304 -
+2022-01-10 01:30:57,856 INFO werkzeug Thread-5 : 127.0.0.1 - - [10/Jan/2022 01:30:57] "[36mGET /static/images/team.jpg HTTP/1.1[0m" 304 -
+2022-01-10 01:30:57,856 INFO werkzeug Thread-6 : 127.0.0.1 - - [10/Jan/2022 01:30:57] "[36mGET /static/images/workspace.jpg HTTP/1.1[0m" 304 -
+2022-01-10 01:34:23,229 INFO werkzeug Thread-8 : 127.0.0.1 - - [10/Jan/2022 01:34:23] "GET /about HTTP/1.1" 200 -
+2022-01-10 01:34:23,635 INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2022 01:34:23] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:34:23,635 INFO werkzeug Thread-10 : 127.0.0.1 - - [10/Jan/2022 01:34:23] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-10 01:34:33,617 INFO werkzeug Thread-12 : 127.0.0.1 - - [10/Jan/2022 01:34:33] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:34:33,946 INFO werkzeug Thread-13 : 127.0.0.1 - - [10/Jan/2022 01:34:33] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:34:33,947 INFO werkzeug Thread-14 : 127.0.0.1 - - [10/Jan/2022 01:34:33] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:34:34,078 INFO werkzeug Thread-15 : 127.0.0.1 - - [10/Jan/2022 01:34:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-10 01:34:51,073 INFO werkzeug Thread-16 : 127.0.0.1 - - [10/Jan/2022 01:34:51] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:34:51,404 INFO werkzeug Thread-17 : 127.0.0.1 - - [10/Jan/2022 01:34:51] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:34:51,405 INFO werkzeug Thread-18 : 127.0.0.1 - - [10/Jan/2022 01:34:51] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-10 01:34:51,455 INFO werkzeug Thread-19 : 127.0.0.1 - - [10/Jan/2022 01:34:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-10 01:34:52,385 INFO werkzeug Thread-20 : 127.0.0.1 - - [10/Jan/2022 01:34:52] "GET /employees/f3 HTTP/1.1" 200 -
+2022-01-10 01:34:52,814 INFO werkzeug Thread-21 : 127.0.0.1 - - [10/Jan/2022 01:34:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:34:52,815 INFO werkzeug Thread-22 : 127.0.0.1 - - [10/Jan/2022 01:34:52] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-10 01:34:54,562 INFO werkzeug Thread-23 : 127.0.0.1 - - [10/Jan/2022 01:34:54] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:34:54,874 INFO werkzeug Thread-24 : 127.0.0.1 - - [10/Jan/2022 01:34:54] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:34:54,875 INFO werkzeug Thread-25 : 127.0.0.1 - - [10/Jan/2022 01:34:54] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:34:55,850 INFO werkzeug Thread-26 : 127.0.0.1 - - [10/Jan/2022 01:34:55] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:34:56,231 INFO werkzeug Thread-27 : 127.0.0.1 - - [10/Jan/2022 01:34:56] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:34:56,232 INFO werkzeug Thread-28 : 127.0.0.1 - - [10/Jan/2022 01:34:56] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-10 01:35:31,302 INFO werkzeug Thread-29 : 127.0.0.1 - - [10/Jan/2022 01:35:31] "GET /about HTTP/1.1" 200 -
+2022-01-10 01:35:31,728 INFO werkzeug Thread-30 : 127.0.0.1 - - [10/Jan/2022 01:35:31] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:35:31,730 INFO werkzeug Thread-31 : 127.0.0.1 - - [10/Jan/2022 01:35:31] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-10 01:36:07,209 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-10 01:36:07,687 INFO werkzeug Thread-1 : 127.0.0.1 - - [10/Jan/2022 01:36:07] "GET /about HTTP/1.1" 200 -
+2022-01-10 01:36:08,284 INFO werkzeug Thread-3 : 127.0.0.1 - - [10/Jan/2022 01:36:08] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-10 01:36:08,284 INFO werkzeug Thread-2 : 127.0.0.1 - - [10/Jan/2022 01:36:08] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:36:08,342 INFO werkzeug Thread-4 : 127.0.0.1 - - [10/Jan/2022 01:36:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-10 01:36:36,091 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-10 01:36:36,473 INFO werkzeug Thread-1 : 127.0.0.1 - - [10/Jan/2022 01:36:36] "GET /about HTTP/1.1" 200 -
+2022-01-10 01:36:37,086 INFO werkzeug Thread-3 : 127.0.0.1 - - [10/Jan/2022 01:36:37] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-10 01:36:37,086 INFO werkzeug Thread-2 : 127.0.0.1 - - [10/Jan/2022 01:36:37] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:36:37,140 INFO werkzeug Thread-4 : 127.0.0.1 - - [10/Jan/2022 01:36:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-10 01:37:15,900 INFO werkzeug Thread-5 : 127.0.0.1 - - [10/Jan/2022 01:37:15] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:37:16,337 INFO werkzeug Thread-6 : 127.0.0.1 - - [10/Jan/2022 01:37:16] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:37:16,337 INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Jan/2022 01:37:16] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-10 01:37:28,001 INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2022 01:37:28] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:37:28,292 INFO werkzeug Thread-10 : 127.0.0.1 - - [10/Jan/2022 01:37:28] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:28,292 INFO werkzeug Thread-11 : 127.0.0.1 - - [10/Jan/2022 01:37:28] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:29,457 INFO werkzeug Thread-12 : 127.0.0.1 - - [10/Jan/2022 01:37:29] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:37:29,755 INFO werkzeug Thread-13 : 127.0.0.1 - - [10/Jan/2022 01:37:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:29,755 INFO werkzeug Thread-14 : 127.0.0.1 - - [10/Jan/2022 01:37:29] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:37:30,828 INFO werkzeug Thread-15 : 127.0.0.1 - - [10/Jan/2022 01:37:30] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:37:31,211 INFO werkzeug Thread-16 : 127.0.0.1 - - [10/Jan/2022 01:37:31] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:31,212 INFO werkzeug Thread-17 : 127.0.0.1 - - [10/Jan/2022 01:37:31] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:35,647 INFO werkzeug Thread-18 : 127.0.0.1 - - [10/Jan/2022 01:37:35] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:37:35,976 INFO werkzeug Thread-19 : 127.0.0.1 - - [10/Jan/2022 01:37:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:35,991 INFO werkzeug Thread-20 : 127.0.0.1 - - [10/Jan/2022 01:37:35] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:50,820 INFO werkzeug Thread-21 : 127.0.0.1 - - [10/Jan/2022 01:37:50] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:37:51,074 INFO werkzeug Thread-22 : 127.0.0.1 - - [10/Jan/2022 01:37:51] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:51,075 INFO werkzeug Thread-23 : 127.0.0.1 - - [10/Jan/2022 01:37:51] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:52,717 INFO werkzeug Thread-24 : 127.0.0.1 - - [10/Jan/2022 01:37:52] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:37:53,100 INFO werkzeug Thread-25 : 127.0.0.1 - - [10/Jan/2022 01:37:53] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:53,100 INFO werkzeug Thread-26 : 127.0.0.1 - - [10/Jan/2022 01:37:53] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:37:56,235 INFO werkzeug Thread-27 : 127.0.0.1 - - [10/Jan/2022 01:37:56] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:37:56,606 INFO werkzeug Thread-28 : 127.0.0.1 - - [10/Jan/2022 01:37:56] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:37:56,608 INFO werkzeug Thread-29 : 127.0.0.1 - - [10/Jan/2022 01:37:56] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-10 01:39:14,070 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-10 01:39:15,124 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-10 01:39:18,708 INFO werkzeug Thread-1 : 127.0.0.1 - - [10/Jan/2022 01:39:18] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:39:19,377 INFO werkzeug Thread-3 : 127.0.0.1 - - [10/Jan/2022 01:39:19] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-10 01:39:19,377 INFO werkzeug Thread-2 : 127.0.0.1 - - [10/Jan/2022 01:39:19] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:39:28,222 INFO werkzeug Thread-5 : 127.0.0.1 - - [10/Jan/2022 01:39:28] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:39:28,540 INFO werkzeug Thread-6 : 127.0.0.1 - - [10/Jan/2022 01:39:28] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:39:28,541 INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Jan/2022 01:39:28] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:39:28,666 INFO werkzeug Thread-8 : 127.0.0.1 - - [10/Jan/2022 01:39:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-10 01:39:29,340 INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2022 01:39:29] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:39:29,789 INFO werkzeug Thread-10 : 127.0.0.1 - - [10/Jan/2022 01:39:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:39:29,792 INFO werkzeug Thread-11 : 127.0.0.1 - - [10/Jan/2022 01:39:29] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-10 01:39:31,063 INFO werkzeug Thread-12 : 127.0.0.1 - - [10/Jan/2022 01:39:31] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:39:31,518 INFO werkzeug Thread-13 : 127.0.0.1 - - [10/Jan/2022 01:39:31] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:39:31,519 INFO werkzeug Thread-14 : 127.0.0.1 - - [10/Jan/2022 01:39:31] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-10 01:39:32,077 INFO werkzeug Thread-15 : 127.0.0.1 - - [10/Jan/2022 01:39:32] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:39:32,463 INFO werkzeug Thread-16 : 127.0.0.1 - - [10/Jan/2022 01:39:32] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:39:32,464 INFO werkzeug Thread-17 : 127.0.0.1 - - [10/Jan/2022 01:39:32] "[36mGET /static/css/department.css HTTP/1.1[0m" 304 -
+2022-01-10 01:42:06,523 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-10 01:42:08,593 INFO werkzeug Thread-1 : 127.0.0.1 - - [10/Jan/2022 01:42:08] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:42:09,271 INFO werkzeug Thread-3 : 127.0.0.1 - - [10/Jan/2022 01:42:09] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-10 01:42:09,272 INFO werkzeug Thread-2 : 127.0.0.1 - - [10/Jan/2022 01:42:09] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:42:09,362 INFO werkzeug Thread-4 : 127.0.0.1 - - [10/Jan/2022 01:42:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-10 01:42:22,961 INFO werkzeug Thread-5 : 127.0.0.1 - - [10/Jan/2022 01:42:22] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:42:23,296 INFO werkzeug Thread-6 : 127.0.0.1 - - [10/Jan/2022 01:42:23] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:42:23,298 INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Jan/2022 01:42:23] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-10 01:42:27,556 INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2022 01:42:27] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:42:27,880 INFO werkzeug Thread-10 : 127.0.0.1 - - [10/Jan/2022 01:42:27] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:42:27,881 INFO werkzeug Thread-11 : 127.0.0.1 - - [10/Jan/2022 01:42:27] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:42:28,437 INFO werkzeug Thread-12 : 127.0.0.1 - - [10/Jan/2022 01:42:28] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:42:28,940 INFO werkzeug Thread-13 : 127.0.0.1 - - [10/Jan/2022 01:42:28] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:42:28,941 INFO werkzeug Thread-14 : 127.0.0.1 - - [10/Jan/2022 01:42:28] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-10 01:42:30,219 INFO werkzeug Thread-15 : 127.0.0.1 - - [10/Jan/2022 01:42:30] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:42:30,638 INFO werkzeug Thread-16 : 127.0.0.1 - - [10/Jan/2022 01:42:30] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:42:30,639 INFO werkzeug Thread-17 : 127.0.0.1 - - [10/Jan/2022 01:42:30] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-10 01:43:21,944 INFO werkzeug Thread-18 : 127.0.0.1 - - [10/Jan/2022 01:43:21] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:43:22,339 INFO werkzeug Thread-19 : 127.0.0.1 - - [10/Jan/2022 01:43:22] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:43:22,342 INFO werkzeug Thread-20 : 127.0.0.1 - - [10/Jan/2022 01:43:22] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-10 01:43:22,917 INFO werkzeug Thread-21 : 127.0.0.1 - - [10/Jan/2022 01:43:22] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:43:23,361 INFO werkzeug Thread-22 : 127.0.0.1 - - [10/Jan/2022 01:43:23] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:43:23,361 INFO werkzeug Thread-23 : 127.0.0.1 - - [10/Jan/2022 01:43:23] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-10 01:44:13,418 INFO werkzeug Thread-24 : 127.0.0.1 - - [10/Jan/2022 01:44:13] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:44:13,694 INFO werkzeug Thread-25 : 127.0.0.1 - - [10/Jan/2022 01:44:13] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 01:44:13,695 INFO werkzeug Thread-26 : 127.0.0.1 - - [10/Jan/2022 01:44:13] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-10 01:44:25,810 INFO werkzeug Thread-28 : 127.0.0.1 - - [10/Jan/2022 01:44:25] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:44:26,192 INFO werkzeug Thread-29 : 127.0.0.1 - - [10/Jan/2022 01:44:26] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:44:26,193 INFO werkzeug Thread-30 : 127.0.0.1 - - [10/Jan/2022 01:44:26] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-10 01:44:31,264 INFO werkzeug Thread-32 : 127.0.0.1 - - [10/Jan/2022 01:44:31] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:44:31,589 INFO werkzeug Thread-33 : 127.0.0.1 - - [10/Jan/2022 01:44:31] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:44:31,598 INFO werkzeug Thread-34 : 127.0.0.1 - - [10/Jan/2022 01:44:31] "[36mGET /static/css/department.css HTTP/1.1[0m" 304 -
+2022-01-10 01:44:35,394 INFO werkzeug Thread-36 : 127.0.0.1 - - [10/Jan/2022 01:44:35] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 01:44:35,668 INFO werkzeug Thread-37 : 127.0.0.1 - - [10/Jan/2022 01:44:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:44:35,669 INFO werkzeug Thread-38 : 127.0.0.1 - - [10/Jan/2022 01:44:35] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-10 01:44:40,487 INFO werkzeug Thread-40 : 127.0.0.1 - - [10/Jan/2022 01:44:40] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:44:40,867 INFO werkzeug Thread-41 : 127.0.0.1 - - [10/Jan/2022 01:44:40] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:44:40,868 INFO werkzeug Thread-42 : 127.0.0.1 - - [10/Jan/2022 01:44:40] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:44:51,724 INFO werkzeug Thread-43 : 127.0.0.1 - - [10/Jan/2022 01:44:51] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:44:51,989 INFO werkzeug Thread-44 : 127.0.0.1 - - [10/Jan/2022 01:44:51] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:44:51,990 INFO werkzeug Thread-45 : 127.0.0.1 - - [10/Jan/2022 01:44:51] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:45:01,732 INFO werkzeug Thread-46 : 127.0.0.1 - - [10/Jan/2022 01:45:01] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:45:02,030 INFO werkzeug Thread-47 : 127.0.0.1 - - [10/Jan/2022 01:45:02] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:02,031 INFO werkzeug Thread-48 : 127.0.0.1 - - [10/Jan/2022 01:45:02] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:45:07,841 INFO werkzeug Thread-49 : 127.0.0.1 - - [10/Jan/2022 01:45:07] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:45:08,238 INFO werkzeug Thread-50 : 127.0.0.1 - - [10/Jan/2022 01:45:08] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:08,239 INFO werkzeug Thread-51 : 127.0.0.1 - - [10/Jan/2022 01:45:08] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:45:24,140 INFO werkzeug Thread-52 : 127.0.0.1 - - [10/Jan/2022 01:45:24] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:45:24,437 INFO werkzeug Thread-53 : 127.0.0.1 - - [10/Jan/2022 01:45:24] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:24,441 INFO werkzeug Thread-54 : 127.0.0.1 - - [10/Jan/2022 01:45:24] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:26,698 INFO werkzeug Thread-55 : 127.0.0.1 - - [10/Jan/2022 01:45:26] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:45:26,999 INFO werkzeug Thread-56 : 127.0.0.1 - - [10/Jan/2022 01:45:26] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:27,000 INFO werkzeug Thread-57 : 127.0.0.1 - - [10/Jan/2022 01:45:27] "[36mGET /static/css/departments.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:28,304 INFO werkzeug Thread-58 : 127.0.0.1 - - [10/Jan/2022 01:45:28] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:45:28,743 INFO werkzeug Thread-59 : 127.0.0.1 - - [10/Jan/2022 01:45:28] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:28,743 INFO werkzeug Thread-60 : 127.0.0.1 - - [10/Jan/2022 01:45:28] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-10 01:45:29,872 INFO werkzeug Thread-61 : 127.0.0.1 - - [10/Jan/2022 01:45:29] "GET /about HTTP/1.1" 200 -
+2022-01-10 01:45:30,193 INFO werkzeug Thread-62 : 127.0.0.1 - - [10/Jan/2022 01:45:30] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:30,194 INFO werkzeug Thread-63 : 127.0.0.1 - - [10/Jan/2022 01:45:30] "GET /static/css/about.css HTTP/1.1" 200 -
+2022-01-10 01:45:53,273 INFO werkzeug Thread-64 : 127.0.0.1 - - [10/Jan/2022 01:45:53] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:45:53,682 INFO werkzeug Thread-65 : 127.0.0.1 - - [10/Jan/2022 01:45:53] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:45:53,683 INFO werkzeug Thread-66 : 127.0.0.1 - - [10/Jan/2022 01:45:53] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-10 01:45:59,949 INFO werkzeug Thread-67 : 127.0.0.1 - - [10/Jan/2022 01:45:59] "GET /departments HTTP/1.1" 200 -
+2022-01-10 01:46:00,261 INFO werkzeug Thread-68 : 127.0.0.1 - - [10/Jan/2022 01:46:00] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:46:00,262 INFO werkzeug Thread-69 : 127.0.0.1 - - [10/Jan/2022 01:46:00] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 01:46:00,845 INFO werkzeug Thread-70 : 127.0.0.1 - - [10/Jan/2022 01:46:00] "GET /employees HTTP/1.1" 200 -
+2022-01-10 01:46:01,309 INFO werkzeug Thread-71 : 127.0.0.1 - - [10/Jan/2022 01:46:01] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 01:46:01,417 INFO werkzeug Thread-72 : 127.0.0.1 - - [10/Jan/2022 01:46:01] "[36mGET /static/css/employees.css HTTP/1.1[0m" 304 -
+2022-01-10 19:14:52,577 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-10 19:14:53,620 INFO werkzeug Thread-1 : 127.0.0.1 - - [10/Jan/2022 19:14:53] "GET /employees HTTP/1.1" 200 -
+2022-01-10 19:14:54,165 INFO werkzeug Thread-3 : 127.0.0.1 - - [10/Jan/2022 19:14:54] "GET /static/css/employees.css HTTP/1.1" 200 -
+2022-01-10 19:14:54,181 INFO werkzeug Thread-2 : 127.0.0.1 - - [10/Jan/2022 19:14:54] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-10 19:14:58,686 INFO werkzeug Thread-5 : 127.0.0.1 - - [10/Jan/2022 19:14:58] "GET /departments HTTP/1.1" 200 -
+2022-01-10 19:14:59,078 INFO werkzeug Thread-6 : 127.0.0.1 - - [10/Jan/2022 19:14:59] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 19:14:59,084 INFO werkzeug Thread-7 : 127.0.0.1 - - [10/Jan/2022 19:14:59] "GET /static/css/departments.css HTTP/1.1" 200 -
+2022-01-10 19:15:18,249 INFO werkzeug Thread-9 : 127.0.0.1 - - [10/Jan/2022 19:15:18] "GET /department/582f9567-7b1d-4760-9123-0fff6cf68716/f0 HTTP/1.1" 200 -
+2022-01-10 19:15:18,546 INFO werkzeug Thread-10 : 127.0.0.1 - - [10/Jan/2022 19:15:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2022-01-10 19:15:18,554 INFO werkzeug Thread-11 : 127.0.0.1 - - [10/Jan/2022 19:15:18] "GET /static/css/department.css HTTP/1.1" 200 -
+2022-01-11 17:03:24,593 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-12 19:25:21,936 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-12 19:47:29,286 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-12 19:47:32,263 INFO werkzeug Thread-1 : 127.0.0.1 - - [12/Jan/2022 19:47:32] "GET /departments HTTP/1.1" 200 -
+2022-01-12 19:47:33,214 INFO werkzeug Thread-2 : 127.0.0.1 - - [12/Jan/2022 19:47:33] "GET /static/css/base.css HTTP/1.1" 200 -
+2022-01-12 19:47:33,215 INFO werkzeug Thread-3 : 127.0.0.1 - - [12/Jan/2022 19:47:33] "GET /static/css/departments.css HTTP/1.1" 200 -

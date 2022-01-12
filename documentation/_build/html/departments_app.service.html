@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>departments_app.service package &mdash; Departments app 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="departments_app.views package" href="departments_app.views.html" />
+    <link rel="prev" title="departments_app.models package" href="departments_app.models.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Departments app
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Departments_app_project</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="app.html">app module</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="departments_app.html">departments_app package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="departments_app.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="departments_app.models.html">departments_app.models package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">departments_app.service package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="departments_app.views.html">departments_app.views package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="departments_app.html#module-departments_app">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Departments app</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules.html">Departments_app_project</a> &raquo;</li>
+          <li><a href="departments_app.html">departments_app package</a> &raquo;</li>
+      <li>departments_app.service package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/departments_app.service.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="departments-app-service-package">
+<h1>departments_app.service package<a class="headerlink" href="#departments-app-service-package" title="Permalink to this headline"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"></a></h2>
+</section>
+<section id="module-departments_app.service.department_service">
+<span id="departments-app-service-department-service-module"></span><h2>departments_app.service.department_service module<a class="headerlink" href="#module-departments_app.service.department_service" title="Permalink to this headline"></a></h2>
+<p>This module is used to execute database queries.</p>
+<p>Module defines the following:</p>
+<p>Classes:</p>
+<p>‘DepartmentService’, department service.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">departments_app.service.department_service.</span></span><span class="sig-name descname"><span class="pre">DepartmentService</span></span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>This class is used to execute database queries to department table.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.add_department">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">add_department</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">organisation</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.add_department" title="Permalink to this definition"></a></dt>
+<dd><p>This method creates a new department and adds it to the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – Received department name of the new department</p></li>
+<li><p><strong>organisation</strong> – Received organisation name of the new department</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.calculate_avg_salary">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">calculate_avg_salary</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">department_uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.calculate_avg_salary" title="Permalink to this definition"></a></dt>
+<dd><p>This method calculates an average salary of given department and adds the result in database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>department_uuid</strong> – Received UUID (Universal Unique Identifier) of department</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>ValueError</strong> – If given department UUID is not in database</p></li>
+<li><p><strong>ZeroDivisionError</strong> – If quantity of department employees equals zero</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.delete_department">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">delete_department</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">department_uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.delete_department" title="Permalink to this definition"></a></dt>
+<dd><p>This method deletes the department from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>department_uuid</strong> – Received UUID (Universal Unique Identifier) of department</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given department UUID is not in database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.get_department_by_id">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_department_by_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">department_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.get_department_by_id" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches department by given department id from database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>department_id</strong> – Received id of the department</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given department id is not in database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Department with given department id</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.get_department_by_name">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_department_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">department_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.get_department_by_name" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches department by given department name from database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>department_name</strong> – Received name of the department</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given department name is not on database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Department with given department name</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.get_department_by_uuid">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_department_by_uuid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">department_uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.get_department_by_uuid" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches department by given UUID from database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>department_uuid</strong> – Received UUID (Universal Unique Identifier) of department</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given department UUID is not in database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Department with given UUID</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.get_departments">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_departments</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.get_departments" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all departments from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all departments</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.get_departments_ordered_by_name">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_departments_ordered_by_name</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.get_departments_ordered_by_name" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all departments from the database ordered by name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all departments ordered by department name.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.get_departments_ordered_by_organisation">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_departments_ordered_by_organisation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.get_departments_ordered_by_organisation" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all departments from the database ordered by organisation name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all departments ordered by organisation name.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.get_departments_ordered_by_salary">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_departments_ordered_by_salary</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.get_departments_ordered_by_salary" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all departments from the database order by descending average salary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all departments ordered by descending average salary.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.department_service.DepartmentService.update_department">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">update_department</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">department_uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_organisation</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.department_service.DepartmentService.update_department" title="Permalink to this definition"></a></dt>
+<dd><p>This method takes department from the database and updates its department name and organisation name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>department_uuid</strong> – Received UUID (Universal Unique Identifier) of department</p></li>
+<li><p><strong>new_name</strong> – Received new department name of department</p></li>
+<li><p><strong>new_organisation</strong> – Received new organisation name of department</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given department UUID is not in database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-departments_app.service.employee_service">
+<span id="departments-app-service-employee-service-module"></span><h2>departments_app.service.employee_service module<a class="headerlink" href="#module-departments_app.service.employee_service" title="Permalink to this headline"></a></h2>
+<p>This module is used to execute database queries.</p>
+<p>Module defines the following:</p>
+<p>Classes:</p>
+<p>‘EmployeeService’, employee service.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">departments_app.service.employee_service.</span></span><span class="sig-name descname"><span class="pre">EmployeeService</span></span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>This class is used to execute database queries to employee table.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.add_employee">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">add_employee</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_of_birth</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salary</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">department_uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.add_employee" title="Permalink to this definition"></a></dt>
+<dd><p>This method creates a new employee and adds it to the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – Received name of a new employee</p></li>
+<li><p><strong>date_of_birth</strong> – Received date of birth of a new employee</p></li>
+<li><p><strong>salary</strong> – Received salary of new a employee</p></li>
+<li><p><strong>department_uuid</strong> – Received UUID (Universal Unique Identifier) of department</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.delete_employee">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">delete_employee</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.delete_employee" title="Permalink to this definition"></a></dt>
+<dd><p>This method deletes the employee from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>uuid</strong> – Received UUID (Universal Unique Identifier) of an employee</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given employee UUID is not in database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.get_employee_by_name">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_employee_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.get_employee_by_name" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.get_employee_by_uuid">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_employee_by_uuid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.get_employee_by_uuid" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches an employee by given UUID from database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>uuid</strong> – Received UUID (Universal Unique Identifier) of employee</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given employee UUID is not in database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Employee with given UUID</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.get_employees">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_employees</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.get_employees" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all employees from the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all employees</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_date_of_birth">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_employees_ordered_by_date_of_birth</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_date_of_birth" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all employees from the database ordered by their date of birth.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all employees ordered by their date of birth.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_department">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_employees_ordered_by_department</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_department" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all employees from the database ordered by department name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all employees ordered by department department name.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_name">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_employees_ordered_by_name</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_name" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all employees from the database ordered by name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all employees ordered by department name.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_salary">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_employees_ordered_by_salary</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.get_employees_ordered_by_salary" title="Permalink to this definition"></a></dt>
+<dd><p>This method fetches all employees from the database order by descending salary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of all employees ordered by descending salary.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="departments_app.service.employee_service.EmployeeService.update_employee">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">update_employee</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_date_of_birth</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_salary</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_department_uuid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#departments_app.service.employee_service.EmployeeService.update_employee" title="Permalink to this definition"></a></dt>
+<dd><p>This method takes the employee from the database and updates its name, date of birth, salary, department.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>uuid</strong> – Received UUID (Universal Unique Identifier) of an employee</p></li>
+<li><p><strong>new_name</strong> – Received new name of an employee</p></li>
+<li><p><strong>new_date_of_birth</strong> – Received date of birth of a new employee</p></li>
+<li><p><strong>new_salary</strong> – Received new salary of new an employee</p></li>
+<li><p><strong>new_department_uuid</strong> – Received UUID (Universal Unique Identifier) of department</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If given employee UUID is not in database</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-departments_app.service">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-departments_app.service" title="Permalink to this headline"></a></h2>
+<p>This package contains modules defining department and employee services:</p>
+<p>Modules:</p>
+<p>‘department_service.py’: defines department services;</p>
+<p>‘employee_service.py’: defines employee services.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="departments_app.models.html" class="btn btn-neutral float-left" title="departments_app.models package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="departments_app.views.html" class="btn btn-neutral float-right" title="departments_app.views package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mykola Kutsenko.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/manage_employees.css') }}">{% endblock %}
+
+{% block title %}
+    Add new employee
+{% endblock %}
+
+{% block body %}
+    <div class="content-wrapper">
+        <div class="inner-wrapper">
+            <form method="POST">
+                <h3>Enter employee’s name:</h3>
+                <input type="text" name="employee_name" id="employee_name" class="form-control"
+                       placeholder="Example: James Hetfield"><br>
+
+                <h3>Enter employee’s date of birth (YYYY-MM-DD):</h3>
+                <input type="text" name="employee_date_of_birth" id="employee_date_of_birth" class="form-control"
+                       placeholder="Example: 2000-01-01"><br>
+
+                <h3>Enter employee’s salary:</h3>
+                <input type="text" name="employee_salary" id="employee_salary" class="form-control"
+                       placeholder="Example: 2150"><br>
+
+                <h3>Select a department for an employee:</h3>
+                <select name="department_uuid" id="department_uuid" class="form-select" aria-label="Default select example">
+                    {% if select_items|length > 0 %}
+                        {% for i in select_items %}
+                            <option value="{{ i.department_uuid }}">{{ i.department_name }} : {{ i.department_organisation }}</option>
+                        {% endfor %}
+                    {% endif %}
+                </select>
+
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Add employee
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Add employee</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                Are you sure you want to add employee?
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-success">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

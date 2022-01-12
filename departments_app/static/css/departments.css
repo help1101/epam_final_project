@@ -1,0 +1,39 @@
+.content-wrapper{
+    padding-top: 80px;
+}
+
+
+.add-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.table-wrapper {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.btn-link {
+    color: black;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: right;
+
+}
+
+.del-button {
+    margin: 5px;
+}
+
+.edit-button {
+    margin: 5px;
+}
+
+.department {
+    color: black;
+}

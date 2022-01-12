@@ -1,0 +1,63 @@
+.content-wrapper{
+    padding-top: 80px;
+}
+
+.header h1{
+    font-size: 34pt;
+}
+
+.header p{
+    font-size: 18pt;
+}
+
+.header{
+    text-align: center;
+}
+
+.content-wrapper .possibilities{
+    color: white;
+}
+
+.content-wrapper .possibilities-list-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.content-wrapper .possibilities-list-right {
+    text-align: right;
+    margin: 0 0 0 auto;
+    padding-right: 30px;
+    direction: ltr;
+    float: right;
+
+}
+
+.content-wrapper .possibilities p{
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
+
+.possibilities-list-left p{
+    max-width: 500px;
+}
+
+.possibilities-list-left h4{
+    padding-top: 25px;
+}
+
+.possibilities-list-right h2{
+    padding-top: 25px;
+}
+
+
+.possibilities-list-right h4{
+    padding-top: 25px;
+}
+
+.possibilities-list-right p{
+    max-width: 500px;
+}

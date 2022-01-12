@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">{% endblock %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block body %}
+    <div class="content-wrapper">
+        <div class="header">
+            <div class="col-md-5 p-lg-5 mx-auto my-5 inner-header">
+                <h1 class="display-5 fw-normal">Welcome to Quick guide</h1>
+                <p class="lead fw-normal">Useful tips are down below.</p>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+
+        <div class="bg-dark shadow-sm mx-auto dark-background"
+             style="width: 90%; height: 2000px; border-radius: 21px 21px 0 0;">
+            <div class="possibilities">
+                <div class="possibilities-list-left">
+                    <h2>Department functional:</h2>
+                    <ul>
+                        <h4>Add department</h4>
+                        <li>
+                            <p>
+                                If you want to create a department just follow the link in the navbar or click the
+                                <a href="/departments">departments</a>. Then press the "Add new department" button.
+                                Fill in the required fields with your data then press "Add department" button and
+                                confirm your action by pressing "Add" button.
+                            </p>
+                        </li>
+
+                        <h4>Edit department</h4>
+                        <li>
+                            <p>
+                                If you want to edit a department just follow the link in the navbar or click the
+                                <a href="/departments">departments</a>. There you will see a list of departments. Press
+                                the edit icon in row of the department you want to edit
+                                <button class="btn btn-outline-primary" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"></path>
+                                    </svg>
+                                    <span class="visually-hidden">Button</span>
+                                </button>
+                                . Then fill the required fields with new data and press "Save Changes" button and
+                                confirm your action by pressing "Save Changes" button.
+                            </p>
+                        </li>
+
+                        <h4>Delete department</h4>
+                        <li>
+                            <p>
+                                If you want to delete a department just follow the link in the navbar or click the
+                                <a href="/departments">departments</a>. There you will see a list of departments. Press
+                                the delete icon in row of the department you want to delete
+                                <button class="btn btn-outline-primary del-button" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-trash" viewBox="0 0 16 16">
+                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"></path>
+                                        <path fill-rule="evenodd"
+                                              d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"></path>
+                                    </svg>
+                                    <span class="visually-hidden">Button</span>
+                                </button>
+                                . Then just confirm your action by pressing "Delete department" button.
+                            </p>
+                        </li>
+
+                        <h4>Useful tips</h4>
+                        <li>
+                            <p>
+                                You can also go to the page of each department simply by clicking on its name. You can
+                                sort the list of departments as well by just clicking on one of the categories
+                                (department, organization, average salary).
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="possibilities-list-right">
+                    <h2>Employee functional:</h2>
+                    <ul>
+                        <h4>Add employee</h4>
+                        <li>
+                            <p>
+                                If you want to create an employee just follow the link in the navbar or click the
+                                <a href="/employees">employees</a>. Then press the "Add new employee" button.
+                                Fill in the required fields with your data then press "Add employee" button and
+                                confirm your action by pressing "Add" button.
+                            </p>
+                        </li>
+
+                        <h4>Edit employee</h4>
+                        <li>
+                            <p>
+                                If you want to edit an employee just follow the link in the navbar or click the
+                                <a href="/employees">employees</a>. There you will see a list of employees. Press
+                                the edit icon in row of the employee you want to edit
+                                <button class="btn btn-outline-primary" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"></path>
+                                    </svg>
+                                    <span class="visually-hidden">Button</span>
+                                </button>
+                                . Then fill the required fields with new data and press "Save Changes" button and
+                                confirm your action by pressing "Save Changes" button.
+                            </p>
+                        </li>
+
+                        <h4>Delete employee</h4>
+                        <li>
+                            <p>
+                                If you want to delete an employee just follow the link in the navbar or click the
+                                <a href="/employees">employees</a>. There you will see a list of employees. Press
+                                the delete icon in row of the employee you want to delete
+                                <button class="btn btn-outline-primary del-button" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-trash" viewBox="0 0 16 16">
+                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"></path>
+                                        <path fill-rule="evenodd"
+                                              d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"></path>
+                                    </svg>
+                                    <span class="visually-hidden">Button</span>
+                                </button>
+                                . Then just confirm your action by pressing "Delete employee" button.
+                            </p>
+                        </li>
+
+                        <h4>Useful tips</h4>
+                        <li>
+                            <p>
+                                You can sort the list of employees by just clicking on one of the categories
+                                (Employee name, Date of birth, Salary, Department name).
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

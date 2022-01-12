@@ -1,0 +1,7 @@
+.navigation-bar{
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+    }

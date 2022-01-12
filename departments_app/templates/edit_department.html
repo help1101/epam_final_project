@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/manage_departments.css') }}">{% endblock %}
+
+{% block title %}
+    Edit department
+{% endblock %}
+
+{% block body %}
+    <div class="content-wrapper">
+        <form method="POST">
+            <h3>Enter department new name:</h3>
+            <input type="text" name="department_name" id="department_name" class="form-control"
+                   placeholder="Example: It department"><br>
+
+            <h3>Enter organisation new name:</h3>
+            <input type="text" name="department_org" id="department_org" class="form-control"
+                   placeholder="Example: Epam"><br>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Save changes
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Save changes</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure you want to save changes?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

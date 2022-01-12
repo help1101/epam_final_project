@@ -1,0 +1,102 @@
+.carousel-item img {
+    margin-top: -130px;
+}
+
+.carousel-indicators {
+    color: black;
+}
+
+.carousel-control-prev {
+    --button-height: calc(100% - 72px);
+    background: rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: var(--button-height);
+    top: calc(100% - var(--button-height));
+    border-radius: 1px;
+}
+
+.carousel-control-prev:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: 500ms;
+
+
+}
+
+.carousel-control-next {
+    --button-height: calc(100% - 72px);
+    background: rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: var(--button-height);
+    top: calc(100% - var(--button-height));
+    border-radius: 1px;
+}
+
+.carousel-control-next:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: 500ms;
+}
+
+.slide-text {
+    bottom: 3rem;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.slide-text h2 {
+    font-size: 2.5vw;
+
+}
+
+.slide3-text h2 {
+    font-size: 2.5vw;
+
+}
+
+.slide3-text p {
+    font-size: 1.5vw;
+
+}
+
+.slide3-text {
+    bottom: 1rem;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+.inner-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.header .btn {
+    width: 50%;
+}
+
+.content-wrapper .possibilities {
+    color: white;
+}
+
+.content-wrapper .possibilities-list-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.content-wrapper .possibilities-list-right {
+    text-align: right;
+    margin: 0 0 0 auto;
+    padding-right: 30px;
+    direction: ltr;
+    float: right;
+
+}
+
+.content-wrapper .possibilities p {
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
