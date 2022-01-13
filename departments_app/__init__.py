@@ -7,19 +7,12 @@ modules:
 Subpackages:
 
 - 'db_data': contains module used to populate database;
-
 - 'migrations': contains migration files used to manage database schema;
-
 - 'models': contains modules with Python classes describing database models;
-
 - 'service': contains modules with classes used to work with database;
-
 - 'static': contains web application static files (styles, images);
-
 - 'templates': contains web application html templates;
-
 - 'views': contains modules with Python functions used to work with web application views;
-
 - 'tests': contains modules with tests.
 """
 
