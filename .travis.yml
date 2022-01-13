@@ -3,10 +3,8 @@ python:
   - "3.8"
 
 install:
-  - pip install -r requirements.txt
-
-before_script:
   - export PYTHONPATH=/home/travis/build/help1101/epam_final_project/departments_app/
+  - pip install -r requirements.txt
 
 script:
   - pytest
