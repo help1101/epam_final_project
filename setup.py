@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='Departments app project',
@@ -7,5 +7,5 @@ setup(
     author='Mykola Kutsenko',
     author_email='kucenko1998@gmail.com',
     url='https://github.com/help1101/epam_final_project',
-    packages=['departments_app', 'departments_app.views', 'departments_app.models', 'departments_app.service']
+    packages=find_packages()
 )
